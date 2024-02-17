@@ -1,0 +1,70 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.1
+mlflow_version: 2.7.1
+model_uuid: b397e4ab83984fd7b867a64b951e0933
+run_id: fca0d420f823473480fbd5833dc75f11
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "id_orig_p"}, {"type": "long", "name": "id_resp_p"},
+    {"type": "string", "name": "proto"}, {"type": "string", "name": "service"}, {"type":
+    "double", "name": "flow_duration"}, {"type": "long", "name": "fwd_pkts_tot"},
+    {"type": "long", "name": "bwd_pkts_tot"}, {"type": "long", "name": "fwd_data_pkts_tot"},
+    {"type": "long", "name": "bwd_data_pkts_tot"}, {"type": "double", "name": "fwd_pkts_per_sec"},
+    {"type": "double", "name": "bwd_pkts_per_sec"}, {"type": "double", "name": "flow_pkts_per_sec"},
+    {"type": "double", "name": "down_up_ratio"}, {"type": "long", "name": "fwd_header_size_tot"},
+    {"type": "long", "name": "fwd_header_size_min"}, {"type": "long", "name": "fwd_header_size_max"},
+    {"type": "long", "name": "bwd_header_size_tot"}, {"type": "long", "name": "bwd_header_size_min"},
+    {"type": "long", "name": "bwd_header_size_max"}, {"type": "long", "name": "flow_FIN_flag_count"},
+    {"type": "long", "name": "flow_SYN_flag_count"}, {"type": "long", "name": "flow_RST_flag_count"},
+    {"type": "long", "name": "fwd_PSH_flag_count"}, {"type": "long", "name": "bwd_PSH_flag_count"},
+    {"type": "long", "name": "flow_ACK_flag_count"}, {"type": "long", "name": "fwd_URG_flag_count"},
+    {"type": "long", "name": "bwd_URG_flag_count"}, {"type": "long", "name": "flow_CWR_flag_count"},
+    {"type": "long", "name": "flow_ECE_flag_count"}, {"type": "double", "name": "fwd_pkts_payload_min"},
+    {"type": "double", "name": "fwd_pkts_payload_max"}, {"type": "double", "name":
+    "fwd_pkts_payload_tot"}, {"type": "double", "name": "fwd_pkts_payload_avg"}, {"type":
+    "double", "name": "fwd_pkts_payload_std"}, {"type": "double", "name": "bwd_pkts_payload_min"},
+    {"type": "double", "name": "bwd_pkts_payload_max"}, {"type": "double", "name":
+    "bwd_pkts_payload_tot"}, {"type": "double", "name": "bwd_pkts_payload_avg"}, {"type":
+    "double", "name": "bwd_pkts_payload_std"}, {"type": "double", "name": "flow_pkts_payload_min"},
+    {"type": "double", "name": "flow_pkts_payload_max"}, {"type": "double", "name":
+    "flow_pkts_payload_tot"}, {"type": "double", "name": "flow_pkts_payload_avg"},
+    {"type": "double", "name": "flow_pkts_payload_std"}, {"type": "double", "name":
+    "fwd_iat_min"}, {"type": "double", "name": "fwd_iat_max"}, {"type": "double",
+    "name": "fwd_iat_tot"}, {"type": "double", "name": "fwd_iat_avg"}, {"type": "double",
+    "name": "fwd_iat_std"}, {"type": "double", "name": "bwd_iat_min"}, {"type": "double",
+    "name": "bwd_iat_max"}, {"type": "double", "name": "bwd_iat_tot"}, {"type": "double",
+    "name": "bwd_iat_avg"}, {"type": "double", "name": "bwd_iat_std"}, {"type": "double",
+    "name": "flow_iat_min"}, {"type": "double", "name": "flow_iat_max"}, {"type":
+    "double", "name": "flow_iat_tot"}, {"type": "double", "name": "flow_iat_avg"},
+    {"type": "double", "name": "flow_iat_std"}, {"type": "double", "name": "payload_bytes_per_second"},
+    {"type": "double", "name": "fwd_subflow_pkts"}, {"type": "double", "name": "bwd_subflow_pkts"},
+    {"type": "double", "name": "fwd_subflow_bytes"}, {"type": "double", "name": "bwd_subflow_bytes"},
+    {"type": "double", "name": "fwd_bulk_bytes"}, {"type": "double", "name": "bwd_bulk_bytes"},
+    {"type": "double", "name": "fwd_bulk_packets"}, {"type": "double", "name": "bwd_bulk_packets"},
+    {"type": "double", "name": "fwd_bulk_rate"}, {"type": "double", "name": "bwd_bulk_rate"},
+    {"type": "double", "name": "active_min"}, {"type": "double", "name": "active_max"},
+    {"type": "double", "name": "active_tot"}, {"type": "double", "name": "active_avg"},
+    {"type": "double", "name": "active_std"}, {"type": "double", "name": "idle_min"},
+    {"type": "double", "name": "idle_max"}, {"type": "double", "name": "idle_tot"},
+    {"type": "double", "name": "idle_avg"}, {"type": "double", "name": "idle_std"},
+    {"type": "long", "name": "fwd_init_window_size"}, {"type": "long", "name": "bwd_init_window_size"},
+    {"type": "long", "name": "fwd_last_window_size"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-02-17 15:49:59.914572'
