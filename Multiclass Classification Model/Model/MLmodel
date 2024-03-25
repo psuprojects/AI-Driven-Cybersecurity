@@ -1,0 +1,49 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.1
+mlflow_version: 2.9.2
+model_size_bytes: 11464485
+model_uuid: 171fa1d5845e4eef9b686647e794245f
+run_id: 74a7f0bdd560471eb56420fc8047aee1
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "fwd_init_window_size"}, {"type": "double",
+    "name": "id_resp_p"}, {"type": "double", "name": "fwd_pkts_payload_avg"}, {"type":
+    "double", "name": "fwd_pkts_payload_min"}, {"type": "double", "name": "fwd_URG_flag_count"},
+    {"type": "double", "name": "flow_SYN_flag_count"}, {"type": "double", "name":
+    "fwd_header_size_min"}, {"type": "double", "name": "fwd_header_size_max"}, {"type":
+    "double", "name": "flow_pkts_payload_tot"}, {"type": "double", "name": "flow_pkts_payload_max"},
+    {"type": "double", "name": "flow_iat_min"}, {"type": "double", "name": "payload_bytes_per_second"},
+    {"type": "double", "name": "fwd_last_window_size"}, {"type": "double", "name":
+    "id_orig_p"}, {"type": "double", "name": "fwd_pkts_payload_max"}, {"type": "double",
+    "name": "flow_FIN_flag_count"}, {"type": "double", "name": "active_min"}, {"type":
+    "double", "name": "flow_pkts_payload_avg"}, {"type": "double", "name": "bwd_pkts_per_sec"},
+    {"type": "double", "name": "bwd_pkts_payload_avg"}, {"type": "double", "name":
+    "flow_pkts_per_sec"}, {"type": "double", "name": "fwd_header_size_tot"}, {"type":
+    "double", "name": "bwd_header_size_max"}, {"type": "double", "name": "fwd_iat_min"},
+    {"type": "double", "name": "fwd_pkts_per_sec"}, {"type": "double", "name": "fwd_pkts_payload_tot"},
+    {"type": "double", "name": "active_avg"}, {"type": "double", "name": "flow_pkts_payload_min"},
+    {"type": "double", "name": "service_dhcp"}, {"type": "double", "name": "service_dns"},
+    {"type": "double", "name": "service_http"}, {"type": "double", "name": "service_irc"},
+    {"type": "double", "name": "service_mqtt"}, {"type": "double", "name": "service_ntp"},
+    {"type": "double", "name": "service_radius"}, {"type": "double", "name": "service_ssl"},
+    {"type": "double", "name": "service_unspec"}, {"type": "double", "name": "proto_icmp"},
+    {"type": "double", "name": "proto_tcp"}, {"type": "double", "name": "proto_udp"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-03-10 00:02:00.410459'
