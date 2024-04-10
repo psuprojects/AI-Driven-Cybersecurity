@@ -16,7 +16,7 @@ This app employs a sophisticate end-to-end workflow designed to enhance cybersec
 
 **2. Data Pre-processing:** Once the synthetic data is generated, the data is then undergoes pre-processing to align its structure with the format used during the training of the XGBoost multi-class classification model, ensuring consistency and accuracy.
 
-**3. Machine Learning Model Inference:** The pre-processed data is then fed into a XGBoost multi-class classification machine learning model. This model is trained to recognize and categorize various types of IoT intrusion attacks, making it a powerful tool for cybersecurity.
+**3. Machine Learning Model Inference:** The pre-processed data is then fed into a lightGBM multi-class classification machine learning model. This model is trained to recognize and categorize various types of IoT intrusion attacks, making it a powerful tool for cybersecurity.
 
 **4. Post-Model Insights:** After the model makes its predictions, the application provides insights to understand the types of attacks and their characteristics. Its a critical step for cybersecurity professionals to take informed actions and strengthen IoT security measures.
 
@@ -26,6 +26,9 @@ This app employs a sophisticate end-to-end workflow designed to enhance cybersec
 This advanced intrusion detection system leverages Conditional Generative Adversarial Networks (CGAN) to generate various synthetic IoT attack dataset and implements a lightGBM multi-class classification model to detect the type of intrusion. 
 1. The app demo is available ![here](https://legendary-memory-v6gj9p4p65rhw66q-8501.app.github.dev/). <br>
 2. A presentation of the work is avaialble [here on YouTube](https://www.youtube.com/watch?v=DOJrRgg0XOU).
+3. Raw datasets used to train the cGAN model is avaialble [here](https://github.com/psuprojects/AI-Driven-Cybersecurity/tree/main/Dataset). Originally from https://archive.ics.uci.edu/dataset/942/rt-iot2022. This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
+4. Trained cGAN models including mlflow runs and performance metrics are located [here]([cGAN-Powered Intrusion Detection System](https://github.com/psuprojects/AI-Driven-Cybersecurity/tree/main/cGAN%20Model).
+5. Trained lightGBM multi-class classification model and performance metrics are available [here](https://github.com/psuprojects/AI-Driven-Cybersecurity/tree/main/Multiclass%20Classification%20Model)
 
 ## Installation
 
@@ -43,6 +46,17 @@ Execute the following command to install the required packages:
 ```
 pip install -r requirements.txt
 ```
+
+## How to run the app
+
+[This streamlit app python file](https://github.com/psuprojects/AI-Driven-Cybersecurity/blob/main/app/streamlit_app.py). demonstrates how the cGAN-Powered Intrusion Detection System developed to generate synthetic IoT intrusion data, preprocess the generated data, use lightGBM multi-class classification machine learning model, and provide post-model insights. 
+
+```
+streamlit run streamlit_app.py
+
+```
+
+
 
 
 
