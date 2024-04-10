@@ -23,9 +23,9 @@ This app employs a sophisticate end-to-end workflow designed to enhance cybersec
 
 ## References
 ***
-This advanced intrusion detection system leverages Conditional Generative Adversarial Networks (CGAN) to generate various synthetic IoT attack dataset and implements a lightGBM multi-class classification model to detect the type of intrusion. The app demo is available 
-![here](https://legendary-memory-v6gj9p4p65rhw66q-8501.app.github.dev/). <br>
-A presentation of the work is avaialble [here on YouTube](https://www.youtube.com/watch?v=DOJrRgg0XOU).
+This advanced intrusion detection system leverages Conditional Generative Adversarial Networks (CGAN) to generate various synthetic IoT attack dataset and implements a lightGBM multi-class classification model to detect the type of intrusion. 
+1. The app demo is available ![here](https://legendary-memory-v6gj9p4p65rhw66q-8501.app.github.dev/). <br>
+2. A presentation of the work is avaialble [here on YouTube](https://www.youtube.com/watch?v=DOJrRgg0XOU).
 
 ## Installation
 ***
