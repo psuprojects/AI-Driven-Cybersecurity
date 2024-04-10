@@ -22,13 +22,13 @@ This app employs a sophisticate end-to-end workflow designed to enhance cybersec
 
 
 ## References
-***
+
 This advanced intrusion detection system leverages Conditional Generative Adversarial Networks (CGAN) to generate various synthetic IoT attack dataset and implements a lightGBM multi-class classification model to detect the type of intrusion. 
 1. The app demo is available ![here](https://legendary-memory-v6gj9p4p65rhw66q-8501.app.github.dev/). <br>
 2. A presentation of the work is avaialble [here on YouTube](https://www.youtube.com/watch?v=DOJrRgg0XOU).
 
 ## Installation
-***
+
 To ensure smooth operation and compatibility, it's crucial that you install the specific versions of the libraries and packages listed below. This guide will walk you through the steps to set up your environment to run the project's code. <br>
 ### Prerequisites
 Before you begin, ensure that you have Python installed on your system. This project requires Python 3.8 or higher. You can download and install the latest Python version from python.org.
