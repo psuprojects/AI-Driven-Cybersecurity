@@ -1,4 +1,4 @@
-mlflow==2.9.2
+mlflow== 2.11.3
 category-encoders==2.6.3
 cloudpickle==2.0.0
 configparser==5.2.0
