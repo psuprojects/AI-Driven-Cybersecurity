@@ -1,4 +1,4 @@
-# 🛡️cGAN-Powered Intrusion Detection System
+# 🛡️cGAN-Powered Intrusion Detection System for IoT
 ```
 AI-894: Design and Implementation of AI Systems
 Created by: Abebual Zerihun Demilew
