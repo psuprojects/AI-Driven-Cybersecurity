@@ -25,7 +25,7 @@ This app employs a sophisticate end-to-end workflow designed to enhance cybersec
 
 This advanced intrusion detection system leverages Conditional Generative Adversarial Networks (CGAN) to generate various synthetic IoT attack dataset and implements a lightGBM multi-class classification model to detect the type of intrusion. 
 1. The app demo is available ![here](https://legendary-memory-v6gj9p4p65rhw66q-8501.app.github.dev/). <br>
-2. A presentation of the work is avaialble [here on YouTube](https://www.youtube.com/watch?v=DOJrRgg0XOU).
+2. A presentation of the work is avaialble [here on YouTube](https://youtu.be/V7AaaVSHWbA).
 3. Raw datasets used to train the cGAN model is avaialble [here: Dataset](https://github.com/psuprojects/AI-Driven-Cybersecurity/tree/main/Dataset). Originally from https://archive.ics.uci.edu/dataset/942/rt-iot2022. This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
 4. Trained cGAN models including mlflow runs and performance metrics are located [here: cGAN Model](https://github.com/psuprojects/AI-Driven-Cybersecurity/tree/main/cGAN%20Model).
 5. Trained lightGBM multi-class classification model and performance metrics are available [here: Classification Model](https://github.com/psuprojects/AI-Driven-Cybersecurity/tree/main/Multiclass%20Classification%20Model)
